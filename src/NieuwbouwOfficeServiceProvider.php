@@ -11,7 +11,7 @@ class NieuwbouwOfficeServiceProvider extends PackageServiceProvider
     public function configurePackage(Package $package): void
     {
         $package
-            ->name('nbo')
+            ->name('laravel-nbo')
             ->hasConfigFile();
     }
 
