@@ -11,15 +11,15 @@ class NieuwbouwOfficeServiceProvider extends PackageServiceProvider
     public function configurePackage(Package $package): void
     {
         $package
-            ->name('laravel-nbo')
+            ->name('nbo')
             ->hasConfigFile();
     }
 
     public function packageBooted(): void
     {
         $this->app->singleton(NieuwbouwOffice::class, function () {
-            $token = config('nieuwbouwoffice.api_token');
-            $baseUrl = config('nieuwbouwoffice.base_url');
+            $token = config('nbo.api_token');
+            $baseUrl = config('nbo.base_url');
 
             return new NieuwbouwOffice($token, $baseUrl);
         });
