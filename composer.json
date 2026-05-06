@@ -62,10 +62,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Concept7\\NieuwbouwOffice\\NieuwbouwOfficeServiceProvider"
+                "Concept7\\LaravelNieuwbouwOffice\\NieuwbouwOfficeServiceProvider"
             ],
             "aliases": {
-                "NieuwbouwOffice": "Concept7\\NieuwbouwOffice\\Facades\\NieuwbouwOffice"
+                "NieuwbouwOffice": "Concept7\\LaravelNieuwbouwOffice\\Facades\\NieuwbouwOffice"
             }
         }
     },
