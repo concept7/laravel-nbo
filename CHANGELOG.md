@@ -2,6 +2,18 @@
 
 All notable changes to `NieuwbouwOffice` will be documented in this file.
 
+## 0.0.2 - 2026-08-07
+
+### What's Changed
+
+* Pin nbo-php-sdk to `^0.0.2`
+* Update branch references from main to 0.x
+* Bump nbo-php-sdk to 0.0.3 by @jhhazelaar in https://github.com/concept7/laravel-nbo/pull/6
+
+Picks up `DownloadMediaRequest` from [nbo-php-sdk 0.0.3](https://github.com/concept7/nbo-php-sdk/releases/tag/0.0.3), so consumers can fetch media files and not just their metadata.
+
+**Full Changelog**: https://github.com/concept7/laravel-nbo/compare/0.0.1...0.0.2
+
 ## 0.0.1 - 2026-05-20
 
 ### What's Changed
