@@ -2,6 +2,18 @@
 
 All notable changes to `NieuwbouwOffice` will be documented in this file.
 
+## 0.1.0 - 2026-10-26
+
+### What's Changed
+
+* Bump nbo-php-sdk to 0.1 by @jhhazelaar in https://github.com/concept7/laravel-nbo/pull/7
+
+Picks up `AgentResource` from [nbo-php-sdk 0.1.0](https://github.com/concept7/nbo-php-sdk/releases/tag/0.1.0), so consumers can sync the real estate agents selling a project. The constraint is now `^0.1`, which accepts every `0.1.x` patch release without another bump here.
+
+Released as `0.1.0` rather than `0.0.3` for the same reason: consumers can require `^0.1` and pick up patch releases without editing their `composer.json`.
+
+**Full Changelog**: https://github.com/concept7/laravel-nbo/compare/0.0.2...0.1.0
+
 ## 0.0.2 - 2026-08-07
 
 ### What's Changed
